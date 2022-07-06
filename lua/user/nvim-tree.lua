@@ -53,6 +53,11 @@ nvim_tree.setup {
       error = "",
     },
   },
+  filters = {
+    custom = {
+      ".git$",
+    },
+  },
   view = {
     width = 30,
     height = 30,

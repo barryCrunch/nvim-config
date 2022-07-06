@@ -59,6 +59,9 @@ return packer.startup(function(use)
   use "tpope/vim-surround"
   use "ggandor/lightspeed.nvim"
   use  "junegunn/fzf.vim"
+  use  "stevearc/dressing.nvim"
+  use  "AckslD/nvim-neoclip.lua"
+  use  "ellisonleao/glow.nvim"
 
   -- Colorschemes
   use  "folke/tokyonight.nvim"
@@ -91,9 +94,14 @@ return packer.startup(function(use)
 
   -- Treesitter
   use "nvim-treesitter/nvim-treesitter"
+  use "nvim-treesitter/nvim-treesitter-textobjects"
 
   -- Git
   use  "lewis6991/gitsigns.nvim"
+  use  "kdheepak/lazygit.nvim"
+
+  -- CodeRunner
+  use "CRAG666/code_runner.nvim"
 
   -- DAP
   use  "mfussenegger/nvim-dap"

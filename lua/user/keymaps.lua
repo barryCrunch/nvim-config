@@ -16,6 +16,11 @@ vim.g.mapleader = " "
 --   command_mode = "c",
 
 -- Normal --
+
+-- Better Search
+keymap("n", "n", "nzz", opts)
+keymap("n", "N", "Nzz", opts)
+
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
